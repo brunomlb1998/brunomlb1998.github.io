@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal de Bruno Lemos.">
+    <title>Bruno Lemos | Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="topo">
+        <div class="marca">
+            <p class="marca-titulo">BRUNO LEMOS</p>
+            <p class="marca-subtitulo">Portfólio pessoal</p>
+        </div>
+
+        <nav class="menu" aria-label="Menu principal">
+            <a href="#sobre">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="secao destaque">
+            <div class="caixa">
+                <span class="etiqueta">Sobre mim</span>
+                <h1>Olá, eu sou Bruno.</h1>
+                <p>
+                    Sou uma pessoa curiosa e inconformada sobre aprendizado e conhecimento.
+                    Minha bagagem acadêmica e meu jeito de explorar novas coisas me ajudam
+                    a evoluir na programação e a entender melhor como criar soluções simples
+                    para diferentes necessidades.
+                </p>
+                <p>
+                    Gosto de estudar tecnologia, praticar programação e transformar ideias em algo útil.
+                </p>
+            </div>
+        </section>
+
+        <section id="formacao" class="secao">
+            <div class="caixa">
+                <span class="etiqueta">Formação</span>
+                <h2>Estudos e conhecimentos</h2>
+                <div class="lista-info">
+                    <article class="card-simples">
+                        <h3>Formação educacional</h3>
+                        <p>Análise e Desenvolvimento de Sistemas - Uninter</p>
+                    </article>
+
+                    <article class="card-simples">
+                        <h3>Idiomas</h3>
+                        <p>Português - nativo</p>
+                        <p>Inglês - Avançado (B2)</p>
+                    </article>
+
+                    <article class="card-simples">
+                        <h3>Interesses</h3>
+                        <p>Tecnologias da SAP: ABAP, Fiori/UI5, ODatas, APIs, CPI...</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="secao">
+            <div class="caixa">
+                <span class="etiqueta">Portfólio</span>
+                <h2>Links e trabalhos</h2>
+                <div class="lista-info">
+                    <article class="card-simples">
+                        <h3>GitHub pessoal</h3>
+                        <p>Repositório com meus estudos, exercícios e projetos.</p>
+                        <a href="https://github.com/brunomlb1998" target="_blank" rel="noopener noreferrer">Acessar GitHub</a>
+                    </article>
+
+                    <article class="card-simples">
+                        <h3>Lista de repositórios</h3>
+                        <p>Link direto para os repositórios públicos do meu perfil.</p>
+                        <a href="https://github.com/brunomlb1998?tab=repositories" target="_blank" rel="noopener noreferrer">Ver repositórios</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="secao">
+            <div class="caixa">
+                <span class="etiqueta">Contato</span>
+                <h2>Envie uma mensagem</h2>
+
+                <form id="form-contato" novalidate>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+
+                    <p id="mensagem-formulario" class="mensagem-formulario" aria-live="polite"></p>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por BRUNO LEMOS</p>
+        <p>2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
